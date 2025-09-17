@@ -8,7 +8,7 @@ The **INGRES AI Chatbot** is designed as a scalable, modular, and secure system.
 
 This diagram illustrates the flow of data and requests through the system, from the user's browser to the core intelligence layer and back.
 
-![ARCHITECTURALDIAGRAM](./public/architecture.png)
+![ARCHITECTURALDIAGRAM](docs/public/architecture.png)
 ---
 
 ## 2. Architectural Layers Explained in Detail
