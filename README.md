@@ -14,6 +14,7 @@ The existing INGRES portal, while a valuable data repository, presents several c
 ## The Solution
 
 Our solution is a multi-interface system centered around a conversational AI chatbot. It's built on a **Retrieval-Augmented Generation (RAG)** architecture to ensure accuracy and is tailored to meet the specific needs of different user groups.
+![CHATBOT INTERFACE](docs/public/interface.png)
 
 ### Key Features
 - **Intelligent Chatbot:** A natural language interface for querying groundwater data via text and voice.
@@ -31,7 +32,7 @@ The system follows a modern, microservices-oriented architecture with a monorepo
 - **Frontend:** A Next.js application for all user interfaces (chatbot and dashboards).
 - **Backend:** A Python FastAPI application that serves as the central API, orchestrating requests to the AI and data services.
 - **Data & AI:** A dedicated layer containing the PostgreSQL database (with PostGIS), a vector database for RAG, and hosted LLM and ML models.
-- **DevOps:** A CI/CD pipeline built with Docker and GitHub Actions for automated deployment.
+
 
 ## Getting Started
 
@@ -42,11 +43,12 @@ The system follows a modern, microservices-oriented architecture with a monorepo
 - Git
 
 ### Installation
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/vermaapurva33/INGRIS_CHATBOT.git](https://github.com/vermaapurva33/INGRIS_CHATBOT.git)
-    cd ingres-project
-    ```
-2.  Set up environment variables (see `.env.example`).
+### 1. Clone the Repository
+```bash
+git clone https://github.com/vermaapurva33/INGRES_CHATBOT.git
+cd chatbot-client
+
+2.  npm install
+    npm run dev
 
 3.  The application will be available at `http://localhost:3000`.
