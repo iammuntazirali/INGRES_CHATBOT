@@ -31,13 +31,12 @@ export const Overview = () => {
                     target="_blank">
                         INGRES BOT
                     
-                    </Link>{" "}
-                    and {" "}
+                    </Link>
                     <Link
                     className="font-medium underline underline-offset-4"
                     href="https://fastapi.tiangolo.com/"
                     target="_blank">
-                        fastapi
+                        
                     </Link>
                     .
 
